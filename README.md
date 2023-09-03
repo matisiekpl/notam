@@ -1,4 +1,6 @@
 # NOTAM
+<a href="https://pkg.go.dev/github.com/matisiekpl/notam"><img src="https://pkg.go.dev/badge/github.com/matisiekpl/notam.svg" alt="Go Reference"></a>
+
 Fetch NOTAM for given ICAO code from www.notams.faa.gov
 
 ## Installation 

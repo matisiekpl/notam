@@ -12,7 +12,7 @@ func TestFetch(t *testing.T) {
 }
 
 func TestFetch_InvalidIcao(t *testing.T) {
-	items, err := Fetch("EPRZAAA")
+	items, err := Fetch("INVALID_CODE")
 	assert.NotNil(t, err)
 	assert.Nil(t, items)
 }
